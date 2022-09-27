@@ -1,0 +1,130 @@
+header {
+    font-family: verdana, sans-serif;
+    background-color: #36C4E7;
+    height: 100px;
+
+}
+
+#name {
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+#img {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    left: 300px;
+    top: 40px;
+}
+
+.links {
+    display: flex;
+    justify-content: right;
+}
+
+
+ul {
+    list-style: none;
+
+}
+
+li {
+    margin: 5px;
+}
+
+#subheader {
+    background-color: #201c1c;
+    height: 100px;
+    overflow: hidden;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ends {
+    color: darkgray;
+    font-size: 200%;
+}
+
+#subheader-text {
+    color: #cd917a;
+    background-color: #201c1c;
+    font-size: 200%;
+}
+
+.about-me-box {
+    display: flex;
+    margin-left: 100px;
+
+
+}
+
+.work-box-main {
+    display: flex;
+    margin-left: 100px;
+}
+
+.work-box-secondary {
+    display: flex;
+}
+
+
+#about-me-header {
+    font-family: verdana, sans-serif;
+    font-size: 20px;
+
+}
+
+#about-me-p {
+    margin-left: 30px;
+    margin-right: 200px;
+}
+
+#work {
+    font-family: verdana, sans-serif;
+}
+
+.header-3 {
+    margin-left: 20px;
+}
+
+#img-1 {
+    width: 500px;
+    height: 500px;
+    margin-left: 10px;
+}
+
+.images {
+    margin: 10px;
+}
+
+footer {
+    font-family: verdana, sans-serif;
+    background-color: #36C4E7;
+
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        height: 200px;
+        display: flex;
+    }
+
+    .links {
+        justify-content: center;
+        position: relative;
+        top: 150px;
+        right: 90px;
+    }
+
+    .work-box-main {
+        flex-direction: column;
+    }
+
+    .work-box-secondary {
+        flex-direction: column;
+    }
+}
